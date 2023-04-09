@@ -1,7 +1,7 @@
 # **Food Sales Predictions**
 The goal of this analysis is to provide insights into the retailer's sales data and to create a machine learning model that predicts some of the variation in the data.
 
-**Author**: Beland Gard
+**Author**: Belandy Gard
 
 # **Cleaning**
 Before machine learning preprocessing, the data was cleaned with the following steps:
