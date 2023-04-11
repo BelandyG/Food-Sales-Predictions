@@ -1,11 +1,16 @@
 # **Food Sales Predictions**
-The goal of this analysis is to provide insights into the retailer's sales data and to create a machine learning model that predicts some of the variation in the data.
+This is a sales prediction for food items sold at various stores. The goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
 
 **Author**: Belandy Gard
+
+![image](https://user-images.githubusercontent.com/123032319/231050414-8f868f76-fd14-43ff-9e04-d602644acc20.png)
+
 
 # **Cleaning**
 Before machine learning preprocessing, the data was cleaned with the following steps:
 
+- Rows and columns were calculated
+- THe data tpe of each variable was checked
 - Duplicate rows were dropped
 - Spelling inconsistencies were fixed
 - Categorical ordinal data was numerically encoded
@@ -45,10 +50,9 @@ This Barplot can be used to help determine which Outlet Location had the least a
 
 The data was preprocessed before fitting and testing machine learning models with the following steps:
 
-Validation was performed (75% of data retained for training; 25% reserved for testing)
 Missing numerical values were imputed with the mean
 Numerical features were scaled
-Missing nominal vlues were imputed with the most frequent value
+Missing nominal values were imputed with the most frequent value
 Nominal features were one-hot encoded
 
 # **Linear Regression Model**
