@@ -43,4 +43,30 @@ This Barplot can be used to help determine which Outlet Location had the least a
 
 # **Machine Learning**
 
+The data was preprocessed before fitting and testing machine learning models with the following steps:
 
+Validation was performed (75% of data retained for training; 25% reserved for testing)
+Missing numerical values were imputed with the mean
+Numerical features were scaled
+Missing nominal vlues were imputed with the most frequent value
+Nominal features were one-hot encoded
+
+# **Linear Regression Model**
+
+A linear and random forest regression model was fit on the training data and then tested on the reserved testing data.
+- This model performed well on both the training and test set. 
+- This model can account for about 57% of the variation in the test data
+
+# **Decision Tree Regression Model**
+
+A Decision Tree regression model was fit on the training data and then tested on the reserved testing data.
+
+The results improved as far as the regression metrics and the model's performance.
+- This model contained some bias.
+- For the R^2 score 59.5% of the variance is explained.
+- For the MAE testing data is off by about $738.31
+
+
+# **Final Recommendations**
+The Decision Tree regression model would be the best recommendation. The data set showed low bias as it performed well in both training and testing.
+This model showed the most accurate predictions of training and test scores.
